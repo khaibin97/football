@@ -1,0 +1,29 @@
+The report name : Performance Analysis Report
+------------------------------------------------------------------------------------------------
+|            FileName|      Operation| Data Structure|   Time Taken (micro sec)|     Bytes Used|
+------------------------------------------------------------------------------------------------
+|    IntegerSmall.txt|            PUT|      HASHTABLE|                     1546|              0|
+|    IntegerSmall.txt|            PUT|        TREEMAP|                      660|              0|
+|    IntegerSmall.txt|            GET|      HASHTABLE|                      402|              0|
+|    IntegerSmall.txt|            GET|        TREEMAP|                      274|              0|
+|    IntegerSmall.txt|         REMOVE|      HASHTABLE|                      468|              0|
+|    IntegerSmall.txt|         REMOVE|        TREEMAP|                      333|              0|
+|    IntegerLarge.txt|            PUT|      HASHTABLE|                 15441593|      240646144|
+|    IntegerLarge.txt|            PUT|        TREEMAP|                 22127547|       67480952|
+|    IntegerLarge.txt|            GET|      HASHTABLE|                  4594579|       -1963520|
+|    IntegerLarge.txt|            GET|        TREEMAP|                  9776991|       66590752|
+|    IntegerLarge.txt|         REMOVE|      HASHTABLE|                  3690003|      -33030128|
+|    IntegerLarge.txt|         REMOVE|        TREEMAP|                 17798650|     -172489720|
+|     StringSmall.txt|            PUT|      HASHTABLE|                     1179|              0|
+|     StringSmall.txt|            PUT|        TREEMAP|                      456|              0|
+|     StringSmall.txt|            GET|      HASHTABLE|                      149|              0|
+|     StringSmall.txt|            GET|        TREEMAP|                      281|              0|
+|     StringSmall.txt|         REMOVE|      HASHTABLE|                      141|              0|
+|     StringSmall.txt|         REMOVE|        TREEMAP|                      259|              0|
+|     StringLarge.txt|            PUT|      HASHTABLE|                   317675|       45615104|
+|     StringLarge.txt|            PUT|        TREEMAP|                   922402|      -37751176|
+|     StringLarge.txt|            GET|      HASHTABLE|                   164855|       26214400|
+|     StringLarge.txt|            GET|        TREEMAP|                   160665|       25688064|
+|     StringLarge.txt|         REMOVE|      HASHTABLE|                   468747|      -80211984|
+|     StringLarge.txt|         REMOVE|        TREEMAP|                   108086|       15202304|
+------------------------------------------------------------------------------------------------
